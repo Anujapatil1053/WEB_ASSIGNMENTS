@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selector</title>
+    <style>
+        #demo{
+            text-decoration: underline;
+            text-align: center;
+            color: red;
+        }
+        #para01{
+            background-color: aqua;
+        }
+        .Items-Group{
+            color: white;
+        }
+        .Items-Block{
+            background-color: gray;
+        }
+        .Items-Group{
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <section style="border: 1px solid; padding: 10px; width: 500px;">
+        <p style="text-decoration: underline;">This Is My First Para</p>
+        <p id="demo">This Is My Second Para</p>
+        <p>This Is My Third Para</p>
+        <p  id="para01">This Is My Fourth Para</p>
+
+        <h1>Hello Selector</h1>
+        <div style="border: 1px solid green; padding: 10px;" class="Items-Block">
+            <div  style="border: 1px solid blue; padding: 10px;">
+                <!-- <p>Select Data 01</p>
+                <p> Select Data 01</p>
+                <p>Select Data 01</p>
+                <p>Select Data 01</p> -->
+                <p>Product</p>
+                <p class="Items-Group"> Items</p>
+                <p class="Items-Group">Items</p>
+                <p>Data</p>
+
+                <h2>Tag selector</h2>
+                <section>
+                    <h4></h4>
+                    <h4></h4>
+                </section>
+            </div>
+        </div>
+
+        <div style="border: 1px solid green; padding: 10px;" class="Items-Block">
+            <div  style="border: 1px solid blue; padding: 10px;">
+                <p>Product</p>
+                <p class="Items-Group"> Items</p>
+                <p>Collection</p>
+                <p>Data</p>
+
+                <h2>Tag selector</h2>
+                <section>
+                    <h4></h4>
+                    <h4></h4>
+                </section>
+            </div>
+        </div>
+
+
+    </section>
+</body>
+</html>
